@@ -20,7 +20,7 @@ body {
    background-color: $backgroundColor;
    position: relative;
 
-   .container {
+   .container-card {
      min-height: 200px;
      width: 340px;
      background-color: $cardBackgroundColor;
@@ -82,13 +82,13 @@ body {
      position: absolute;
      bottom: 0;
      text-align: center;
-     color: #555;
+     color: #777;
      padding: 20px;
      width: 100%;
 
      a {
       text-decoration: none;
-       color: #777;
+       color: #ddd;
       
      }
 

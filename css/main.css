@@ -10,7 +10,7 @@ body {
   background-color: hsl(218, 23%, 16%);
   position: relative;
 }
-body .container {
+body .container-card {
   min-height: 200px;
   width: 340px;
   background-color: hsl(217, 19%, 24%);
@@ -25,22 +25,22 @@ body .container {
   border-radius: 4px;
   padding: 30px;
 }
-body .container .id {
+body .container-card .id {
   color: hsl(150, 100%, 66%);
   font-weight: 800;
 }
-body .container .advice {
+body .container-card .advice {
   padding: 20px 0;
   min-height: 130px;
   color: hsl(193, 38%, 86%);
   font-weight: 800;
   font-size: 28px;
 }
-body .container .puse {
+body .container-card .puse {
   color: hsl(217, 19%, 38%);
   width: 300px;
 }
-body .container .cube {
+body .container-card .cube {
   width: 55px;
   height: 55px;
   position: relative;
@@ -52,10 +52,10 @@ body .container .cube {
   align-items: center;
   transition: 0.4s;
 }
-body .container .cube:hover {
+body .container-card .cube:hover {
   box-shadow: 1px 1px 10px 4px hsl(150, 100%, 66%);
 }
-body .container .cube .cube-shape {
+body .container-card .cube .cube-shape {
   width: 40%;
   height: 40%;
 }
@@ -63,13 +63,13 @@ body .attribution {
   position: absolute;
   bottom: 0;
   text-align: center;
-  color: #555;
+  color: #777;
   padding: 20px;
   width: 100%;
 }
 body .attribution a {
   text-decoration: none;
-  color: #777;
+  color: #ddd;
 }
 
 @media (min-width: 760px) {
