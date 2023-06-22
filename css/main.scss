@@ -32,7 +32,7 @@ body {
      flex-direction: column;
      align-items: center;
      justify-content: space-between;
-     border-radius: 4px;
+     border-radius: 6px;
      padding: 30px;
 
      .id {
@@ -99,8 +99,8 @@ body {
 
  @media (min-width: 760px) {
    body {
-     .container {
-       width: 500px;
+     .container-card {
+       width: 400px;
        border-radius: 10px;
      }
    }
